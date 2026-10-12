@@ -1,0 +1,31 @@
+# .NET
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+
+# Local state / secrets
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+
+# Game and console images: never commit
+*.z64
+*.n64
+*.v64
+*.rom
+*.iso
+*.chd
+*.bin
+*.cue
+*.cso
+*.xbe
+*.bios
+
+# OS/editor
+.DS_Store
+Thumbs.db
